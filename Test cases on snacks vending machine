@@ -1,0 +1,53 @@
+Requirement
+      - Snacks vending machine
+      - product can be selectable by pressing corresponding button on keypad.
+      - accept cards / cash
+      - can select 1 item at a time
+      - blind cannot use
+           
+Functinalitiy testing:
+      - purchase an iten
+          - valid purchase 
+                 - buy a product with valid payment method 
+                          - credit
+                          - debit
+                          - cash
+                 
+          - invalid purchase
+                 - invalid payment method by card [unacceptable card, expired card, differenct currency card]
+                 - insert less cash : should display message
+                          - time out -> return amount
+      
+      - two or more buttons pressed together
+      - select invalid product : should display appropriate message 
+      - select a product out of stock : should display appropriate message 
+      - ease of use/ understand : should be understandable by first time user
+      - behaviour at lower or higher voltage : should adjust the voltage within the limit difference
+      - power outage during transaction[placing an oder] : should mark transaction as null 
+      - verify dispenser 
+            - if item already present in dispenser : should display message to remove item from dispenser  
+                  
+Performance testing:
+  - order processing time
+  - perform concesuctive trasactions, to verify behaviour
+  - time out during different stages of transaction
+   
+Security testing:
+  - product security : machine door lock/ alarm
+  - cash security
+  - card / debit card encryption security
+
+Hardware testing:
+  - dimensions 
+  - hieght/level of dispenser
+  - sharp edges 
+  - material of machine
+  - electrical specifications : should not generate static
+  - temperature of surrounding : less than requirement and more than requirement 
+ 
+Visibility teting:
+  - alignment of product 
+  - night or day time light
+  - text display : text size, font, font color
+  - welcome text to display
+  
