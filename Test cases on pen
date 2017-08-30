@@ -1,0 +1,44 @@
+Requirement: 
+  - mechanical pen, when hold and twist, ballpoint(tip) will be out of socket.
+  - refill require and changeable, 0.2 mm ball, 
+  - grip, 
+  - logo on left side of clip
+  
+Functional:
+  - write :  should be able to write smoothly
+  - writing on different surfaces[smooth, rough, wet, slippery, cloth]  :  should be able to write on requrired surfaces
+  - erase ink from written surface
+  - write with fresh pen : should start writing smoothly in few seconds
+  - drop from certain height  : should be able to write
+  - number of pages can write with no refill
+  - maximum number of words can write without breaking flow
+  - friction applied
+  - pressure  
+          - write with more than pressure applied on it
+          - write with less than pressure applied on it
+
+Usability:
+  - design of pen
+  - comfortness of pen
+  - grip while holding pen
+  - verify logo - visibility
+                     - spelling
+                     - design
+                     - color 
+                     - font size
+  
+  
+Hardware:
+  - color of pen
+  - dimension
+  - color of ink
+  - verify by attaching pen to pocket using its clip
+  - take out pen from pocket - should be easy to take out
+  - click sound made while twisting pen
+  
+  
+ 
+  
+  
+          
+  
